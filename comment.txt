@@ -1,0 +1,36 @@
+Feedback for A01
+Things Done Well
+Some good requirements identified, explained well, and covering most (but not all, e.g. angled walls) of the
+rovers necessary reqs. Remember that requirements don't need to be quantified, and this comes at the stage
+when you are determing your design criteria.
+Some really useful diagrams in the concept generation section.
+Good design criteria, breaking up each criterion into a sub-section. It is unnecessary to show your DC tables
+from both milestones in this report. This is a final report, and so the DC table you show should be the final
+table. If you wish to discuss the iterative process of your DC table, the prior iterations should be in the
+appendix, not the main body.
+Good tests described in the testing sections. It is unnecessary to include that detailed results, a summary
+would suﬃce with the detailed results in the appendix.
+Some insightful recommendations are made based on your evaluation and performance.
+Things to be Improved
+Margins have clearly been changed to fit the report within the page limit. Instead of doing this, consider what
+you should remove to make your report more clear and concise. If you can't fit your report within the limit, this
+means you have written too much.
+Exec summary is too long. This should be a summary that very succinctly gives an overview of your report.
+Scope should be in its own section rather than within the introduction.
+Your requirements analysis is not the time to suggest concepts for your rovers sub-systems, this should
+occur within the concept generation section.
+Concept 4 description is confusing - why is there two arduino boards? And what are the extra materials that
+cause it to exceed the budget?
+Good job at relating back your concepts to your reqs, however, it is unclear where some of the values in the
+table came from. E.g., why does concept 2 have an rpm that is twice as high as all the others? Where did you
+obtain the very specific torque values from? Also an explanation of what the yellow numbers mean is also
+necessary (also don't use yellow font with a white background).
+DC table does not provide good ranges of acceptable values. E.g., the deviation in a straight line is 1-2cm, but
+how long is it driving for until it deviates these distances? It is unnecessary for the sonar to have a 4m range,
+as this exceeds the longest possible distance it would have to travel in the maze. What does obstacle
+detection: 90deg right turn mean? Etc.
+It is diﬃcult to obtain a clear idea of how your rover fits together physically from your descriptions - consider
+use of a figure, and breaking up your explanation into describing key sub-systems.
+Description of how the code worked is also diﬃcult to follow. Rather than explaining what each function did,
+explain the maze solving concept that was employed. Flowcharts can be very useful at doing this succinctly
+and clearly.
